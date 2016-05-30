@@ -77,7 +77,7 @@ class ViewController: UIViewController {
         
         //7.验证用户的支付请求并跳转支付页面
         let  auth = PKPaymentAuthorizationViewController.init(paymentRequest: request)
-        self.presentViewController(auth, animated: true, completion: nil)
+        presentViewController(auth, animated: true, completion: nil)
     }
     
 }
